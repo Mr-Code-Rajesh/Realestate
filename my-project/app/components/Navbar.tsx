@@ -26,9 +26,8 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-transparent py-5"
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-transparent py-5"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
@@ -36,7 +35,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2">
             <FaLeaf className={`text-3xl ${scrolled ? "text-forest-700" : "text-forest-700"}`} />
             <span className={`font-bold text-2xl tracking-tight ${scrolled ? "text-forest-900" : "text-forest-900"}`}>
-              Lumina<span className="text-forest-600">Estates</span>
+              Liceron<span className="text-forest-600">Estates</span>
             </span>
           </Link>
 
@@ -46,9 +45,8 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`font-medium transition-colors hover:text-forest-600 ${
-                  scrolled ? "text-forest-900" : "text-forest-900"
-                }`}
+                className={`font-medium transition-colors hover:text-forest-600 ${scrolled ? "text-forest-900" : "text-forest-900"
+                  }`}
               >
                 {link.name}
               </Link>

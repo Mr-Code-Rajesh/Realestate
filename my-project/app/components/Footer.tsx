@@ -11,11 +11,11 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <FaLeaf className="text-3xl text-forest-500" />
               <span className="font-bold text-2xl tracking-tight text-white">
-                Lumina<span className="text-forest-500">Estates</span>
+                Liceron<span className="text-forest-500">Estates</span>
               </span>
             </Link>
             <p className="text-earth-200 text-sm leading-relaxed">
-              Discover your dream home with Lumina Estates. We offer premium properties that blend modern luxury with sustainable, nature-inspired living.
+              Discover your dream home with Liceron Estates. We offer premium properties that blend modern luxury with sustainable, nature-inspired living.
             </p>
             <div className="flex space-x-4 pt-2">
               <a href="#" className="w-8 h-8 rounded-full bg-forest-800 flex items-center justify-center hover:bg-forest-500 hover:text-white transition-colors">
@@ -77,7 +77,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-forest-800 mt-12 pt-8 text-center text-earth-200 text-sm flex flex-col md:flex-row justify-between items-center gap-4">
-          <p>&copy; {new Date().getFullYear()} Lumina Estates. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Liceron Estates. All rights reserved.</p>
           <p>Designed with <span className="text-forest-500">♥</span></p>
         </div>
       </div>
